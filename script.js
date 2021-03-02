@@ -12,7 +12,7 @@ const popupW=document.querySelector('#popup-whepper');//
 const popupWone=document.querySelector('#popup-whepper-one');//
 const popupWt=document.querySelector('#popup-wheppert');//
 const congres=document.querySelector('#congres-box');//
-const congresOne=document.querySelector('#congres-box');//
+const congresOne=document.querySelector('#congres-box-one');//
 const congrest=document.querySelector('#congrest-box');//
 const popupt=document.querySelector('#popupt');//
 
