@@ -16,7 +16,7 @@ const congresOne=document.querySelector('#congres-box-one');//
 const congrest=document.querySelector('#congrest-box');//
 const popupt=document.querySelector('#popupt');//
 
-
+ 
 
 
 cardDets.addEventListener('click',(e)=>{
@@ -39,6 +39,12 @@ hitbtnOne.addEventListener('click',(e)=>{
   popupWone.classList.remove('active');
   closcOne.classList.remove('active');
 });
+
+popupWone.addEventListener('click',(e)=>{
+  e.preventDefault();
+  popupWone.classList.remove('active');
+  closcOne.classList.remove('active');
+})
 // poppup one
 submit.addEventListener('click',(e)=>{
   e.preventDefault();
@@ -61,6 +67,11 @@ hitbtn.addEventListener('click',(e)=>{
     popupW.classList.remove('active');
     closc.classList.remove('active');
 });
+popupW.addEventListener('click',(e)=>{
+  e.preventDefault();
+    popupW.classList.remove('active');
+    closc.classList.remove('active');
+});
 //================= puppop two================
 
 popupt.addEventListener('click',(e)=>{
@@ -76,6 +87,14 @@ popupt.addEventListener('click',(e)=>{
 });
 
 hitbtnt.addEventListener('click',(e)=>{
+  
+  e.preventDefault();
+  
+    popupWt.classList.remove('active');
+    closct.classList.remove('active');
+
+});
+popupWt.addEventListener('click',(e)=>{
   
   e.preventDefault();
   
