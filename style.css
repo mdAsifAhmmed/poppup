@@ -88,9 +88,7 @@
     -o-transition:.5s ;
 }
 
-#show-popup,
-#show-popup-one,
-#show-popupt.active{
+.active{
     opacity: 1;
     position: absolute;
     top: 10%;
